@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --mainColor: #DCDDDE;
+    --mainColorLight:#EEEEEF;
+    --textColor: #1E1F21;
+    --mainFont: Neue Haas Grotesk;
+}
+
+.product-form{
+    position: fixed;
+    background: #EEEEEF;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 100;
+}
+.product-form h4{
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.inf_item img{
+    width: 50px;
+}
+.inf_item span{
+    padding: 5px;
+}
+.inf_item p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.inf_item p span{
+    color: #930;
+    font-size: 1.1rem;
+}
+
+.btn_update{
+    /* margin-left: 100px; */
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: transparent;
+    color: #1E1F21;
+    border: 1px solid #1E1F21;
+    &:hover{
+        color: #fff;
+        background: #1E1F21;
+    }
+}
+.btn_close{
+    margin-left: 300px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: transparent;
+    color: #1E1F21;
+    border: 1px solid #1E1F21;
+    &:hover{
+        color: #fff;
+        background: #1E1F21;
+    }
+}
+
+.status {
+    /* Quy tắc chung cho trạng thái */
+    font-weight: bold; /* Độ đậm của chữ */
+  }
+  
+  .pending {
+    color: yellow; /* Màu chữ cho trạng thái "Pending" */
+  }
+  
+  .confirmed {
+    color: green; /* Màu chữ cho trạng thái "Confirmed" */
+  }
+  
+  .preparing {
+    color: orange; /* Màu chữ cho trạng thái "Preparing" */
+  }
+  
+  .shipping {
+    color: blue; /* Màu chữ cho trạng thái "Shipping" */
+  }
+  
+  .completed {
+    color: purple; /* Màu chữ cho trạng thái "Completed" */
+  }
+  

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --mainColor: #DCDDDE;
+    --mainColorLight:#EEEEEF;
+    --textColor: #000000;
+    --mainFont: Neue Haas Grotesk;
+}
+.Inf_shop{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #000000;
+    margin: 4rem 0;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Inf_shop h2{
+    font-size: 20px;
+    line-height: 18.75px;
+    text-transform: uppercase;
+    font-family: Neue Haas Grotesk;
+    color: #EEEEEF;
+
+}
+
+
+.customer_footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+}
+.customer_footer a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.information_footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+}
+
+.information_footer a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.connect_footer p{
+    font-size: 15px;
+    font-family: Neue Haas Grotesk;
+    line-height: 22.5px;
+    color: #fff;
+    /* font-weight: bold; */
+
+}
+
+
+.connect_footer a{
+    text-decoration: none;
+    font-family: Neue Haas Grotesk;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+}
+
+.connect_footer li.btn_item {
+    display: flex;
+    justify-content: center;
+}
+

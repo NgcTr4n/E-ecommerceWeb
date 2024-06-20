@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --mainColor: #DCDDDE;
+    --mainColorLight:#EEEEEF;
+    --textColor: #1E1F21;
+    --mainFont: Neue Haas Grotesk;
+}
+
+.common__section{
+    background-image: url("../../img/Main/main2.png");
+    background-size: cover;
+    background-repeat: no-repeat center;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 5rem;
+        padding: 5rem 4rem;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+}
+
+.common__section h1{
+    color: #EEEEEF;
+    text-shadow: #1E1F21 1px 0 10px;
+    font-weight: 700;
+}
